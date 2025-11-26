@@ -1,8 +1,6 @@
 package pixel.academy.setter_injection_app.common;
 
-import org.springframework.stereotype.Component;
 
-@Component
 public class FrechChef implements Chef {
 
     public FrechChef() {
