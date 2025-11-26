@@ -8,7 +8,7 @@ import pixel.academy.setter_injection_app.common.GreekChef;
 @Configuration
 public class RestaurantConfig {
 
-    @Bean
+    @Bean("batman")
     public Chef greekChef() {
         return new GreekChef();
     }

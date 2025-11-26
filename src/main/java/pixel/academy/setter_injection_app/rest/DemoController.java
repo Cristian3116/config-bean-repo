@@ -13,7 +13,7 @@ public class DemoController {
     private Chef myChef;
 
     @Autowired
-    public DemoController(@Qualifier("greekChef") Chef theChef) {
+    public DemoController(@Qualifier("batman") Chef theChef) {
         myChef = theChef;
         System.out.println("In constructor: " + getClass().getSimpleName());
     }
